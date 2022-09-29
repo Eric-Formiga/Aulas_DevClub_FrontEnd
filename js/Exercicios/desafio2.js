@@ -22,7 +22,7 @@ if( nacionalidade === "brasileria"){
 // entao ele tambem ira gerar um numero aleatorioa entre 1 a 10 e verifica se a pessoa ganhou ou nao 
 // em caso ter ganhado mostra um premio se nao mostra outra mensagem
 
-const randonNumber1 = Math.floor(Math.random() * 11)
+const randonNumber1 = Math.floor(Math.random() * (10 - 1) +1)
 const randonNumber2 = 10
 
 if(randonNumber1 > randonNumber2){
